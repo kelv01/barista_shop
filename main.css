@@ -12,6 +12,22 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.logo{
+    color: #ffae4e;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-top: 10px;
+}
+
 nav{
     padding: 1%;
     display: flex;
@@ -89,3 +105,17 @@ nav{
     
 
 }
+.gallery {
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.gallery img{
+    padding: 12px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    justify-content: space-between;
+}
+
