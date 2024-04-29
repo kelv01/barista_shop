@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
     
@@ -111,11 +112,18 @@ nav{
     margin: auto;
     width: 80%;
 }
+.gallery p{
+    padding-top: 8px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
 .gallery img{
     padding: 12px;
-    display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     justify-content: space-between;
 }
 
