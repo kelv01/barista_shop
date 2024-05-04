@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header{
     
     width: 100%;
@@ -127,3 +128,32 @@ nav{
     justify-content: space-between;
 }
 
+
+
+.profession{
+    text-align: center;
+    margin-top: 5%;
+}
+.profession p{
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #343b3d;
+}
