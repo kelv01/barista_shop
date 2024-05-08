@@ -133,27 +133,70 @@ nav{
 .profession{
     text-align: center;
     margin-top: 5%;
+    
 }
 .profession p{
     padding-top: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    background: #343b3d;
+.pos_col{
+    
+    flex-wrap: wrap;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: absolute;
+    margin-top: 30px;
+    left: 10%;
+    background-color:  #F3e1dd;
 }
+.pos_col img{
+   float: left;
+   width: 50%;
+   max-width: 300px;
+   margin-right: 20px;
+   border: none;
+}
+.pos_col p{
+   
+   
+}
+.pos_col h2{
+ 
+  padding-right: 290px;
+   
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .container {
+      flex-direction: column; /* Stack image and text on top of each other */
+      width: 100%;
+    }
+    
+    .image {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .text-content {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
