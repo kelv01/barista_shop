@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -107,6 +108,7 @@ nav{
     
 
 }
+/*style for gallery section*/
 .gallery {
     padding-top: 100px;
     text-align: center;
@@ -129,7 +131,7 @@ nav{
 }
 
 
-
+/*style for profession container*/
 .profession{
     text-align: center;
     margin-top: 5%;
@@ -142,9 +144,10 @@ nav{
     
     flex-wrap: wrap;
     width: 80%;
+    min-height: 250px;
     border: 1px solid #ddd;
     padding: 10px;
-    position: absolute;
+    position: relative;
     margin-top: 30px;
     left: 10%;
     background-color:  #F3e1dd;
@@ -156,10 +159,10 @@ nav{
    margin-right: 20px;
    border: none;
 }
-.pos_col p{
+/*.pos_col p{
    
    
-}
+}*/
 .pos_col h2{
  
   padding-right: 290px;
@@ -167,30 +170,29 @@ nav{
 }
 
 
-
-
-@media screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens */
-    .container {
-      flex-direction: column; /* Stack image and text on top of each other */
-      width: 100%;
-    }
+/*style for footer section*/
+.footer{
     
-    .image {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
+    width: 100%;
+    padding: 20px ;   
+    text-align: center;
+    margin-top: 6%;
     
-    .text-content {
-      width: 100%;
-    }
-  }
+  
 
-
-
-
-
+}
+.footer h4{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+  margin-right: 10px;
+    
+}
 
 
 

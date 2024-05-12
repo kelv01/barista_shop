@@ -52,8 +52,57 @@ nav{
 }
 
 .about_us{
-    padding: 150px;
-    margin-left: 100px;
+    text-align: center;
+   padding: 20px;
+}
+
+
+
+.container{
+   
+    flex-wrap: wrap;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: absolute;
+    margin-top: 30px;
+    left: 10%;
+    color: #fff;
+    background-color:  #343b3d;
+}
+.container img{
+   float: left;
+   width: 50%;
+   max-width: 400px;
+   margin-right: 20px;
+   border: none;
+}
+.container h1{
+    text-align: center;
+}
+.text{
+    padding-left: 50%;
+    padding-right: 10%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    padding-top: 380px;
+}
+.footer h4{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+  margin-right: 10px;
+    
 }
 
 
@@ -61,11 +110,3 @@ nav{
 
 
 
-
-
-
-
-
-footer{
-    background: #343b3d;
-}
