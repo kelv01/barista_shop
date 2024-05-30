@@ -6,7 +6,7 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     position: relative;
     margin-top: 40px;
@@ -59,29 +59,26 @@ form p a{
     color: #ffae4e;
 
 }
-.submit-oder{
-    margin-bottom: 20px;
+.btn-field{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-.btn-field{
-    
-    justify-content: center;
-    align-items: center;
 }
 .btn-field button{
-    width: 100px;
+    flex-basis: 48%;
     background: #F0803C;
     color: #fff;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 20px;
     border: 0;
     outline: 0;
     cursor: pointer;
-   
-    }
+    transition: 1s;
+}
 .input-group{
     height: 70px;
+}
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
 }

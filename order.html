@@ -11,7 +11,7 @@
   
         <form>
             <div class="form-box">
-                <h1>Sign Up to order</h1>
+                <h1>Order your favorite</h1>
                 <form>
                     <div class="input-group">
                         <div class="input-field">
@@ -19,28 +19,40 @@
                             <input type="text" placeholder="Name">
                         </div>
                     </div>
-                    <div class="input-group">
-                        <div class="input-field">
-                            <i class="fa-solid fa-envelope"></i>
-                            <input type="email" placeholder="Email">
-                        </div>
-                    </div>
+                   
                     <div class="input-group">
                         <div class="input-field">
                             <i class="fa-solid fa-phone"></i>
                             <input type="phone" placeholder="Phone">
                         </div>
                     </div>
-                    <div class="input-group">
-                        <div class="input-field">
-                            <i class="fa-solid fa-lock"></i>
-                            <input type="password" placeholder="Password">
-                        </div>
-                        <p>Lost Password <a href="#">Click Here</a></p>
+
+                    <div class="submit-oder">
+                        <label for="drink-type">Choose your drink:</label>
+                        <select id="drink-type" name="drinkType">
+                            <option value="espresso">Espresso</option>
+                            <option value="latte">Latte</option>
+                            <option value="cappuccino">Cappuccino</option>
+                            <option value="americano">Americano</option>
+                            <option value="cocacola">Cocacola</option>
+                            <option value="Sprite">Sprite</option>
+                            <option value="Fanta">Fanta</option>
+                            <option value="Milkshake">Milkshake</option>
+                            <option value="Milkshake">Mango juice</option>
+                            <option value="Milkshake">Passion juice</option>
+                        </select>
+                        <br><br>
+                        <label for="size">Choose your size:</label>
+                        <select id="size" name="size">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <br><br>
                     </div>
                     <div class="btn-field">
-                        <button type="button">Sign up</button>
-                        <button type="button" class="disable">Sign in</button>
+                        <button type="button">Place Order</button>
+                        
                     </div>
                 </form>
             </div>
